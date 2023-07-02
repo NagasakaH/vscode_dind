@@ -1,0 +1,8 @@
+services:
+  dind_vscode:
+    image: nagasakah/dind_vscode:latest
+    privileged: true
+    build:
+      context: .
+    ports:
+      - 3000:3000
