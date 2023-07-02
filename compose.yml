@@ -1,6 +1,6 @@
 services:
   dind_vscode:
-    image: nagasakah/dind_vscode:latest
+    image: nagasakah/vscode_dind:latest
     privileged: true
     build:
       context: .
